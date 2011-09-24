@@ -1,0 +1,74 @@
+﻿body {
+  background-color: #d5ecc2;
+  color: #000;
+  font-family: Tahoma;
+  padding: 8pt;
+  display: -ms-grid;
+  -ms-grid-rows: auto 1fr;
+  -ms-grid-columns: 1fr 1fr;
+}
+
+a:link, a:visited, a:active
+{
+    color: #700;
+    font-weight: inherit;
+}
+
+h1
+{
+    text-transform: none;
+    font-family: inherit;
+    font-size: 22pt;
+}
+
+#posts {
+  width: 99%;
+  height: 100%;
+  overflow: auto;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+#content {
+  width: 95%;
+  height: 100%;
+  overflow-y: auto;
+  margin-right: 64px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.postTitle
+{
+    color:#000;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.postDate
+{
+    color: #666;
+    font-size: 11pt;
+}
+
+.postContent
+{
+    font-size: medium;
+    line-height: 18px;
+}
+
+@media screen and (-ms-view-state: full-screen)
+{
+}
+
+@media screen and (-ms-view-state: fill)
+{
+}
+
+@media screen and (-ms-view-state: snapped)
+{
+}
+
+@media screen and (-ms-view-state: device-portrait)
+{
+}

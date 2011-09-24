@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="265805c8-fef5-4c3d-a102-26900bf8487b" Version="1.0.0.0" Publisher="CN=84zume" />
+  <Properties>
+    <DisplayName>_84zumeWorksReader</DisplayName>
+    <Description>_84zumeWorksReader</Description>
+    <PublisherDisplayName>84zume</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="84zumeWorksReader" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="This is a RSS Reader for 84zumeWorks" ForegroundText="light" BackgroundColor="#0084FF" InitialRotationPreference="portrait">
+        <DefaultTile />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

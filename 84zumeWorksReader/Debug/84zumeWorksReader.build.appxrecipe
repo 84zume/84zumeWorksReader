@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8SLATE</Machine>
+    <WindowsUser>84zume</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <Modified>2011-09-25T01:10:42.544</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2011-09-23T12:54:12.971</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2011-09-25T01:10:42.529</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2011-09-23T12:53:45.733</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2011-09-25T01:10:11.579</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2011-09-23T12:41:53.036</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\Css\ui-dark.css">
+      <PackagePath>winjs\Css\ui-dark.css</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\Css\ui-light.css">
+      <PackagePath>winjs\Css\ui-light.css</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\animations.js">
+      <PackagePath>winjs\js\animations.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\base.js">
+      <PackagePath>winjs\js\base.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\binding.js">
+      <PackagePath>winjs\js\binding.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\controls.js">
+      <PackagePath>winjs\js\controls.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\res.js">
+      <PackagePath>winjs\js\res.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\ui.js">
+      <PackagePath>winjs\js\ui.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\uicollections.js">
+      <PackagePath>winjs\js\uicollections.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+    <AppXPackagedFile Include="C:\Users\84zume\Documents\Visual Studio 11\Projects\84zumeWorksReader\84zumeWorksReader\winjs\js\wwaapp.js">
+      <PackagePath>winjs\js\wwaapp.js</PackagePath>
+      <Modified>2011-08-23T01:28:50.000</Modified>
+    </AppXPackagedFile>
+  </ItemGroup>
+</Project>

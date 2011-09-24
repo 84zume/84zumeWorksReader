@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>84zume Works Reader</title>
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="/winjs/css/ui-light.css" />
+    <script src="/winjs/js/base.js"></script>
+    <script src="/winjs/js/ui.js"></script>
+    <script src="/winjs/js/binding.js"></script>
+    <script src="/winjs/js/controls.js"></script>
+    <script src="/winjs/js/animations.js"></script>
+    <script src="/winjs/js/uicollections.js"></script>
+    <script src="/winjs/js/wwaapp.js"></script>
+    <!-- MyApp references -->
+    <link rel="stylesheet" href="/css/default.css" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <h1>
+        84zume Works Reader</h1>
+    <div id="downloadStatus">
+    </div>
+    <div id="template" data-win-control="WinJS.Binding.Template">
+        <div data-win-bind="innerText: title" class="postTitle">
+        </div>
+        <div data-win-bind="innerText: date" class="postDate">
+        </div>
+    </div>
+    <div id="posts" data-win-control="WinJS.UI.ListView" data-win-options="{itemRenderer: template, layout: {type: WinJS.UI.ListLayout},
+                            selectionMode: 'single', onselectionchanged: selectionChanged}">
+    </div>
+    <div id="contentTemplate" data-win-control="WinJS.Binding.Template">
+        <div data-win-bind="innerText: title" class="postTitle">
+        </div>
+        <div data-win-bind="innerText: date" class="postDate">
+        </div>
+        <div data-win-bind="innerHTML: content" class="postContent">
+        </div>
+    </div>
+    <div id="content">
+    </div>
+</body>
+</html>
